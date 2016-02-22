@@ -1,0 +1,72 @@
+body {
+    font-family: 'Raleway', sans-serif; 
+    margin: 2em;
+    padding: 2em;
+    background-color: #f2f2f2;
+} 
+/********** Opening text **********/
+.warning {
+    font-family: 'Raleway', sans-serif; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 30px;
+}
+/********** height/width modal **********/
+#first_window {
+    height: 100%;
+    width: 100%;
+}
+/********** Modal **********/
+#mask {  
+    position:absolute; /* important */ 
+    height:100vh; /* cover the whole page */  
+    width:100vw;  /* cover the whole page */ 
+    top:0px; /* start from top */  
+    left:0px; /* start from left */   
+    display:none; /* don't show it '*/   
+    background-color: black; /* styling bellow */ 
+}  
+.modal_window {  
+    position:absolute; /* important, positions it on center later */  
+    display:none; /* don't show it */    
+    color:white;  /* styling bellow */
+}  
+/* style a specific modal window  */  
+#modal_window {  
+    padding: 50px;  
+    border:1px solid gray;  
+    background: #246493;  
+    color:#000;  
+}  
+.info {
+    margin: 10px;
+}
+/****************Font:****************/
+h1 {
+  text-align: left;
+  color: #fff; 
+  font-size: 2em;
+}
+ul {
+  color: #fff;
+  font-size: 1em;
+}
+.closing {
+  padding-bottom: 10px;
+}
+/************** BUTTON **************/
+.button {
+  padding: 4em;
+  margin-top: 4em;
+  height: 155px; 
+  width: 155px;
+  background: #fa7f00;
+}
+a {
+  font-size: 2em;
+  margin-top: 2em;
+  padding: 2em;
+  color: #fff;
+  text-decoration: none;
+}
+
